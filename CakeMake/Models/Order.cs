@@ -12,6 +12,7 @@ namespace CakeMake.Models
         [BindNever]
         public int OrderId { get; set; }
 
+        //validation is to be added here
         [Required(ErrorMessage = "Please enter your first name")]
         [Display(Name = "First Name")]
         [StringLength(25)]
